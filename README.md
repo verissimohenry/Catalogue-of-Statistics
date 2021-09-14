@@ -22,7 +22,7 @@ React Meal Catalog App uses themealdb.com API to fetch data for vegetarian meals
 
 ## Live Demo
 
-[Live Link]()
+[Live Link](https://61407ce837b75e15b57e06e9--friendly-edison-eb4f5d.netlify.app/)
 
 ## Testing
 

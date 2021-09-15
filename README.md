@@ -36,7 +36,7 @@ Run all the tests using command:
 - Github: [@githubhandle](https://github.com/verissimohenry)
 - Twitter: [@twitterhandle](https://twitter.com/verissimohenry)
 - Linkedin: [linkedin](https://www.linkedin.com/in/henry-verissimo-618906167/)
-- Email: verissimohenry04@gmail.comlor=white)](https://twitter.com/devnor7)
+- Email: verissimohenry04@gmail.com
 
 ## Show your support
 

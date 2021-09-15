@@ -28,6 +28,7 @@ React Meal Catalog App uses themealdb.com API to fetch data for vegetarian meals
 
 Run all the tests using command:
 `npm test`
+
 ## AUTHOR
 
 👤 **Verissimo Henry**

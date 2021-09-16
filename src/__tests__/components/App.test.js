@@ -7,44 +7,45 @@ import App from '../../components/App';
 import store from '../../store/index';
 
 afterEach(cleanup);
-
-it("Takes website's snapshot", () => {
-  const { asFragment } = render(
-    <Provider store={store}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Provider>,
-  );
-  expect(
-    asFragment(
+describe('App', () => {
+  it("Takes website's snapshot", () => {
+    const { asFragment } = render(
       <Provider store={store}>
-        <App />
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
       </Provider>,
-    ),
-  ).toMatchSnapshot();
-});
+    );
+    expect(
+      asFragment(
+        <Provider store={store}>
+          <App />
+        </Provider>,
+      ),
+    ).toMatchSnapshot();
+  });
 
-it("Displays website's title", () => {
-  render(
-    <Provider store={store}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Provider>,
-  );
-  const element = screen.getByText(/Veggie Meal Catalog/i);
-  expect(element).toBeInTheDocument();
-});
+  it("Displays website's title", () => {
+    render(
+      <Provider store={store}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </Provider>,
+    );
+    const element = screen.getByText(/Meal Catalog/i);
+    expect(element).toBeInTheDocument();
+  });
 
-it('Displays search bar', () => {
-  render(
-    <Provider store={store}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Provider>,
-  );
-  const element = screen.getByPlaceholderText(/Search for Meal/i);
-  expect(element).toBeInTheDocument();
+  it('Displays search bar', () => {
+    render(
+      <Provider store={store}>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </Provider>,
+    );
+    const element = screen.getByPlaceholderText(/Search for Meal/i);
+    expect(element).toBeInTheDocument();
+  });
 });

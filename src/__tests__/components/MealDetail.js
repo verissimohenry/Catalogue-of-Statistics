@@ -5,6 +5,10 @@ import { Provider } from 'react-redux';
 import MealDetail from '../../containers/MealDetail';
 import store from '../../store/index';
 
+/**
+ * @jest-environment jsdom
+ */
+
 afterEach(cleanup);
 
 it('Should take a snapshot', () => {

@@ -6,6 +6,10 @@ import { Provider } from 'react-redux';
 import App from '../../components/App';
 import store from '../../store/index';
 
+/**
+ * @jest-environment jsdom
+ */
+
 afterEach(cleanup);
 describe('App', () => {
   it("Takes website's snapshot", () => {

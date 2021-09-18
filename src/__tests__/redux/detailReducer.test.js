@@ -1,5 +1,9 @@
 import detailReducer from '../../reducers/detailReducer';
 
+/**
+ * @jest-environment jsdom
+ */
+
 describe('Detail Reducer', () => {
   it('Checks if default state is returned', () => {
     const state = detailReducer(undefined, { type: '' });

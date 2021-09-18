@@ -2,12 +2,15 @@ import React from 'react';
 import { render, cleanup, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import { JSDOM } from 'jsdom';
 import Meal from '../../components/Meal';
+import store from '../../store';
+
+/**
+ * @jest-environment jsdom
+ */
 
 afterEach(cleanup);
 it('displays heading', () => {
-  const { store } = new JSDOM();
   render(
     <Provider store={store}>
       <BrowserRouter>

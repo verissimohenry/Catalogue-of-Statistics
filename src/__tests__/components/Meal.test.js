@@ -5,10 +5,6 @@ import { BrowserRouter } from 'react-router-dom';
 import Meal from '../../components/Meal';
 import store from '../../store';
 
-/**
- * @jest-environment jsdom
- */
-
 afterEach(cleanup);
 it('displays heading', () => {
   render(

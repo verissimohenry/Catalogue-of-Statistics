@@ -1,15 +1,18 @@
+import '../style/App.css';
 import React from 'react';
-import { Route } from 'react-router-dom';
-import Nav from './Nav';
-import Home from '../containers/Home';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import ItemList from '../container/ItemList';
+import Ingredients from '../container/Ingeredients';
+import NavBar from './NavBar';
 
 const App = () => (
-  <div className="App">
-    <Nav />
-    <Route path={['/meal/:id', '/']}>
-      <Home />
-    </Route>
-  </div>
+  <BrowserRouter>
+    <NavBar />
+    <Switch>
+      <Route exact path="/" component={ItemList} />
+      <Route path="/:recipe_id" component={Ingredients} />
+    </Switch>
+  </BrowserRouter>
 );
 
 export default App;

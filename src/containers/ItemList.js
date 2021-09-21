@@ -3,9 +3,9 @@ import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Recipe from '../components/Recipe';
-import { fetchRecipes } from '../action';
+import { fetchRecipes } from '../actions';
 import styles from '../style/style.module.css';
-import { fetchIngredients } from '../action/ingredient';
+import { fetchIngredients } from '../actions/ingredient';
 import CategoryFilter from '../components/Category';
 
 const ItemList = ({ recipes, fetchRecipes }) => {

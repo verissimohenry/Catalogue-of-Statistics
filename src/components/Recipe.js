@@ -3,8 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { fetchIngredients } from '../action/ingredient';
-import styles from '../style/style.module.css';
+import { fetchIngredients } from '../actions/ingredient';
+import styles from '../styles/style.module.css';
 
 const Recipe = ({ recipes }) => {
   const dispatch = useDispatch();

@@ -1,8 +1,8 @@
-import '../style/App.css';
+import '../styles/App.css';
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import ItemList from '../container/ItemList';
-import Ingredients from '../container/Ingeredients';
+import ItemList from '../containers/ItemList';
+import Ingredients from '../containers/Ingeredients';
 import NavBar from './NavBar';
 
 const App = () => (

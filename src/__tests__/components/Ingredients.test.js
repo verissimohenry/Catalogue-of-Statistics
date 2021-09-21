@@ -2,7 +2,7 @@ import React from 'react';
 import { render, cleanup, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import Ingredients from '../../container/Ingeredients';
+import Ingredients from '../../containers/Ingeredients';
 import store from '../../store/store';
 
 afterEach(cleanup);

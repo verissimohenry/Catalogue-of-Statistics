@@ -1,5 +1,5 @@
-import { FETCH_USER_FAILURE, FETCH_USER_REQUEST, FETCH_USER_SUCCESS } from '../../action';
-import recipeReducer from '../../reducer/recipeReducer';
+import { FETCH_USER_FAILURE, FETCH_USER_REQUEST, FETCH_USER_SUCCESS } from '../../actions';
+import recipeReducer from '../../reducers/recipeReducer';
 
 describe('Recipe Reducer', () => {
   it('Should return initial state', () => {

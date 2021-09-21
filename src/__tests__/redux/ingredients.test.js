@@ -1,5 +1,5 @@
-import ingredientReducer from '../../reducer/ingredientReducer';
-import { FETCH_INGREDIENT_SUCCESS, FETCH_INGREDIENT_REQUEST } from '../../action/ingredient';
+import ingredientReducer from '../../reducers/ingredientReducer';
+import { FETCH_INGREDIENT_SUCCESS, FETCH_INGREDIENT_REQUEST } from '../../actions/ingredient';
 
 describe('Ingredients Reducer', () => {
   it('should return the initial state', () => {

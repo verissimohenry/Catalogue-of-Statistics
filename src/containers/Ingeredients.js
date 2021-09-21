@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import Styles from '../style/ingredients.module.css';
+import Styles from '../styles/ingredients.module.css';
 
 const Ingredients = () => {
   const history = useHistory();

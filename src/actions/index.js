@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import axios from 'axios';
 
 export const FETCH_USER_REQUEST = 'FETCH_USER_REQUEST';

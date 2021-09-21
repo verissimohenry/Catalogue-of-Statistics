@@ -1,12 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App should render the catalogue of recipe 1`] = `
+exports[`should render the list of ingredients 1`] = `
 <DocumentFragment>
-  <div
-    class="nav"
-  >
-     Catelogue of Recipe 
-  </div>
   <div>
     <div
       class="category"

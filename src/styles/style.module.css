@@ -22,7 +22,9 @@
 }
 
 .img {
-  width: 100%
+  margin-top: -85px;
+  width: 100%;
+  height: auto;
 }
 
 .p {

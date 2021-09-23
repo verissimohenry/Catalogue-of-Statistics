@@ -1,10 +1,8 @@
 import axios from 'axios';
-import { mealsByCategoryURL } from '../api';
 
-describe('Api data', () => {
-  it('Tests if Meal data is received', async () => {
-    const url = mealsByCategoryURL('Vegan');
-    const data = await axios.get(url).then((res) => res);
+describe('api data', () => {
+  it('Tests if recipes  data recived', async () => {
+    const data = await axios.get('https://www.themealdb.com/api/json/v1/1/lookup.php?i=Seafood').then((res) => res);
     expect(data).toBeInstanceOf(Object);
   });
 });

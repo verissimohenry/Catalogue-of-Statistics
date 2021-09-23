@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Recipe from '../components/Recipe';
 import { fetchRecipes } from '../actions';
-import styles from '../styles/style.module.css';
+import '../styles/style.module.css';
 import { fetchIngredients } from '../actions/ingredient';
 import CategoryFilter from '../components/Category';
 
@@ -24,7 +24,7 @@ const ItemList = ({ recipes, fetchRecipes }) => {
       <div className="category">
 
         <input
-          className={styles.input}
+          className="input"
           type="text"
           placeholder="Search for recipes"
           value={fil}

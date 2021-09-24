@@ -6,9 +6,9 @@ import { cleanup, render, screen } from '@testing-library/react';
 import App from '../../components/App';
 import store from '../../store/store';
 import '@testing-library/jest-dom';
+import { JSDOM } from 'jsdom';
 
 const { expect } = require('chai');
-const { JSDOM } = require('jsdom');
 
 afterEach(cleanup);
 describe('App', () => {

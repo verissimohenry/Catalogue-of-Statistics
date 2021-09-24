@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { cleanup, render, screen } from '@testing-library/react';
+import { JSDOM } from 'jsdom';
 import App from '../../components/App';
 import store from '../../store/store';
 import '@testing-library/jest-dom';
-import { JSDOM } from 'jsdom';
 
 const { expect } = require('chai');
 

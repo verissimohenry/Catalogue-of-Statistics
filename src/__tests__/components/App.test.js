@@ -7,7 +7,6 @@ import App from '../../components/App';
 import store from '../../store/store';
 import '@testing-library/jest-dom';
 import { JSDOM } from 'jsdom';
-import { TextEncoder, TextDecoder } from 'util';
 
 const { expect } = require('chai');
 

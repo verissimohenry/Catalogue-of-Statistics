@@ -1,5 +1,5 @@
 {
-  "name": "catalogue_of_recipes",
+  "name": "Food Recipe Catelogue",
   "version": "0.1.0",
   "engines": {
     "node": "14.17.2",
@@ -16,7 +16,7 @@
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
     "react-test-renderer": "^17.0.2",
     "redux": "^4.1.0",
     "redux-devtools-extension": "^2.13.9",
@@ -51,20 +51,17 @@
     "@babel/eslint-parser": "^7.14.7",
     "@babel/plugin-syntax-jsx": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
-    "chai": "^4.3.4",
     "eslint": "^7.31.0",
+    "chai": "^4.3.4",
+    "jsdom": "^17.0.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "jsdom": "^17.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.20.1"
-  },
-  "jest": {
-    "testEnvironment": "<rootDir>/tests/custom-test-env.js"
   }
 }

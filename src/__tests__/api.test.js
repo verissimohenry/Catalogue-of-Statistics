@@ -1,4 +1,8 @@
+/* eslint-disable no-unused-vars */
 import axios from 'axios';
+
+const { expect } = require('chai');
+const { JSDOM } = require('jsdom');
 
 describe('api data', () => {
   it('Tests if recipes  data recived', async () => {

@@ -1,4 +1,4 @@
-/* eslint-disable import/extensions */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 import { BrowserRouter } from 'react-router-dom';
@@ -7,6 +7,9 @@ import { cleanup, render, screen } from '@testing-library/react';
 import App from '../../components/App';
 import store from '../../store/store';
 import '@testing-library/jest-dom';
+
+const { expect } = require('chai');
+const { JSDOM } = require('jsdom');
 
 afterEach(cleanup);
 describe('App', () => {

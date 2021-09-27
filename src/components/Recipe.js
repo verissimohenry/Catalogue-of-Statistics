@@ -15,7 +15,7 @@ const Recipe = ({ recipes }) => {
   return (
     <div>
 
-      <div className="tablet desktop">
+      <div className=".tablet .desktop">
         {recipes.map((recipe) => (
           <div key={recipe.strMeal}>
             <Link to={`/${recipe.idMeal}`} onClick={clickHandler(recipe.idMeal)}>

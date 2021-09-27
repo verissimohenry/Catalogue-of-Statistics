@@ -41,7 +41,6 @@ const Ingredients = () => {
 
         <h2 className="h2">Ingredients</h2>
         <ul className="ul">
-
           {ingred.map((ingredient) => (
             <div key={ingredient.strIngredient1}>
               <li key={ingredient.strIngredient1} className="li">

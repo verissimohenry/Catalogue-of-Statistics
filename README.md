@@ -1,6 +1,6 @@
 # Catalogue of Recipes
 
-> A catalogue of recipe web app is an app that displays recipes and their ingredients by fetching data from <https://www.themealdb.com/api.php>. It renders to three screen sizes(mobile, tablet and desktop).
+> A Catalogue of recipe web app is an app that displays recipes and their ingredients by fetching data from <https://www.themealdb.com/api.php>. It renders to three screen sizes(mobile, tablet and desktop).
 
 ![screenshot](src/assets/pi.png)
 

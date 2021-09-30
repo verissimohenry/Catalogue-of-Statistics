@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import ItemList from '../containers/ItemList';
 import Ingredients from '../containers/Ingeredients';
 import NavBar from './NavBar';
-import '../styles/style.module.css';
+import '../styles/style.css';
 
 const App = () => (
   <BrowserRouter>

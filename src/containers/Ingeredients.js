@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import '../styles/ingredients.module.css';
-import '../styles/style.module.css';
+import '../styles/style.css';
 
 const Ingredients = () => {
   const history = useHistory();

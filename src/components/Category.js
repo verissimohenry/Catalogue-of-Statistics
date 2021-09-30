@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchRecipes } from '../actions';
-import '../styles/style.module.css';
+import '../styles/style.css';
 
 const CategoryFilter = () => {
   const category = ['Beef', 'Breakfast', 'Chicken', 'Dessert', 'Goat', 'Lamb', 'Miscellaneous', 'Pasta', 'Pork',

@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import Recipe from '../components/Recipe';
 import { fetchRecipes } from '../actions';
-import '../styles/style.module.css';
+import '../styles/style.css';
 import { fetchIngredients } from '../actions/ingredient';
 import CategoryFilter from '../components/Category';
 

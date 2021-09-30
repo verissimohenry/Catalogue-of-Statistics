@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/style.module.css';
+import '../styles/style.css';
 
 const NavBar = () => (
   <div className="nav">Catalogue of Recipe </div>

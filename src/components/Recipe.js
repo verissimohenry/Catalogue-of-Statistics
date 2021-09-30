@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { fetchIngredients } from '../actions/ingredient';
-import '../styles/style.module.css';
+import '../styles/style.css';
 
 const Recipe = ({ recipes }) => {
   const dispatch = useDispatch();
@@ -15,7 +15,7 @@ const Recipe = ({ recipes }) => {
   return (
     <div>
 
-      <div className=".tablet .desktop">
+      <div className="tablet desktop">
         {recipes.map((recipe) => (
           <div key={recipe.strMeal}>
             <Link to={`/${recipe.idMeal}`} onClick={clickHandler(recipe.idMeal)}>

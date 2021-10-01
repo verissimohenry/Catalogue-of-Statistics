@@ -6,7 +6,7 @@ import Ingredients from '../../containers/Ingeredients';
 import store from '../../store/store';
 
 afterEach(cleanup);
-it('displays Ingredients', () => {
+it('displays ingredients.csss', () => {
   const recipe = [{ title: 'add', id: 123, image: '.jepg' }];
   render(
     <Provider store={store}>

@@ -1,3 +1,4 @@
+
 .nav {
   color: #d0cfa8;
   width: 100%;
@@ -28,7 +29,7 @@
 }
 
 .p {
-  width: 100px;
+  width: 100%;
   height: 45px;
   color: #cfcdcb;
   position: relative;
@@ -55,6 +56,6 @@
   }
 
   .input {
-    height: 50px;
+    height: 54px;
   }
 }

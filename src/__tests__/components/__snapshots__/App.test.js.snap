@@ -3,90 +3,38 @@
 exports[`should take a snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="App"
+    class="nav"
   >
-    <nav
-      class="my-navbar"
-    >
-      <ul
-        class="nav-list"
-      >
-        <div
-          class="meal-logo"
-        >
-          <a
-            href="/"
-          >
-            Meal Catalogue
-          </a>
-        </div>
-        <div
-          class="list-item"
-        >
-          <a
-            href="/"
-          >
-            Home
-          </a>
-          <a
-            href="/random"
-          >
-            Random meal
-          </a>
-          <a
-            href="/about"
-          >
-            About us
-          </a>
-        </div>
-        <div
-          class="search-item"
-        >
-          <div
-            class="search-icon"
-          >
-            <svg
-              aria-hidden="true"
-              class="MuiSvgIcon-root"
-              focusable="false"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-              />
-            </svg>
-          </div>
-          <div
-            class="MuiInputBase-root MuiInput-root MuiInput-underline"
-          >
-            <input
-              class="MuiInputBase-input MuiInput-input"
-              placeholder="search meals"
-              type="text"
-              value=""
-            />
-          </div>
-        </div>
-      </ul>
-    </nav>
+    Catalogue of Recipe 
+  </div>
+  <div>
     <div
-      class="category mt-2"
+      class="category"
     >
-      <h3
-        class="category-h"
-      >
-        Select a category: 
-      </h3>
+      <input
+        class="input"
+        placeholder="Search for recipes"
+        type="text"
+        value=""
+      />
       <select
-        aria-label=".form-select-sm example"
-        class="form-select form-select-sm"
-        id="category"
+        id="cat"
         name="category"
       >
         <option
-          value="Seafood"
+          value="Beef"
         >
-          Seafood
+          Beef
+        </option>
+        <option
+          value="Breakfast"
+        >
+          Breakfast
+        </option>
+        <option
+          value="Chicken"
+        >
+          Chicken
         </option>
         <option
           value="Dessert"
@@ -94,25 +42,81 @@ exports[`should take a snapshot 1`] = `
           Dessert
         </option>
         <option
+          value="Goat"
+        >
+          Goat
+        </option>
+        <option
+          value="Lamb"
+        >
+          Lamb
+        </option>
+        <option
+          value="Miscellaneous"
+        >
+          Miscellaneous
+        </option>
+        <option
+          value="Pasta"
+        >
+          Pasta
+        </option>
+        <option
+          value="Pork"
+        >
+          Pork
+        </option>
+        <option
+          value="Seafood"
+        >
+          Seafood
+        </option>
+        <option
+          value="Side"
+        >
+          Side
+        </option>
+        <option
+          value="Starter"
+        >
+          Starter
+        </option>
+        <option
           value="Vegan"
         >
           Vegan
         </option>
         <option
-          value="Breakfast"
+          value="Vegetarian"
         >
-          Breakfast
+          Vegetarian
         </option>
       </select>
     </div>
-    <div
-      class="card-list"
-    />
+    <div>
+      <div>
+        <div
+          class="tablet desktop"
+        >
+          <div>
+            <a
+              href="/2020"
+            >
+              <img
+                alt="recipeImage"
+                class="img"
+                src="undefined"
+              />
+              <p
+                class="p"
+              >
+                hello world
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <footer>
-    <p>
-      Made with ♥ by Marko Zecevic © 2021.
-    </p>
-  </footer>
 </DocumentFragment>
 `;

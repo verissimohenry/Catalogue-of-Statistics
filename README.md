@@ -3,6 +3,8 @@
 > A Catalogue of recipe web app is an app that displays recipes and their ingredients by fetching data from <https://www.themealdb.com/api.php>. It renders to three screen sizes(mobile, tablet and desktop).
 
 ![screenshot](src/assets/pi.png)
+![screenshot](src/assets/imageb.png)
+![screenshot](src/assets/imageb2.png)
 
 ## Built With
 
@@ -28,7 +30,7 @@
 
 ## Live Demo
 
-[Live Link](https://friendly-edison-eb4f5d.netlify.app/)
+[Live Link](https://xenodochial-lalande-4e97e4.netlify.app/)
 
 ## Testing
 
